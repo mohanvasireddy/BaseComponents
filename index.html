@@ -1,117 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-         <link rel="stylesheet" href="style.css">  
-         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 
 <body>
   <header class="nav_bar">
     <div class="nav_title"><span>Base components</span></div>
     <div>
-        <ul class="nav_menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Design system</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">E-Books</a></li>
-            <li><a href="#">Learning</a></li>
-            <li><a href="#">Join us</a></li>
-            <li><button class="nav_button">GET STARTED</button></li>
-        </ul>
-      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="nav_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Design system</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">E-Books</a></li>
+        <li><a href="#">Learning</a></li>
+        <li><a href="#">Join us</a></li>
+        <button class="nav_button">Sign in</button>
+      </ul>
+    </div>
+    <div class="fixed">
+      <div>Get access to eveything we have created for 3$ only</div>
+    </div>
   </header>
+  <div class="sub_header">
+    <div class="title">Design. Build. Evolve.</div>
+    <div class="sub_title">All the assets you need, in one place</div>
+    <div class="search"></div>
+  </div>
   <main>
-    <div class="title_section">
-        <div class="left_title_section">
-            <div>Design.</div>
-            <div>Build.</div>
-            <div>Evolve.</div>
+    <div class="main_button">
+      <button>Featured</button>
+      <button>Best sellers</button>
+      <button>Trending</button>
+      <button>Featured</button>
+      <button>Featured</button>
+      <button>Featured</button>
+    </div>
+  
+    <div class="cards_wrapper">
+      <div class="card">
+        <img src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
         </div>
-        <div class="right_title_section">
-            <img src="" alt="">
-            <div>Image</div>
-        </div>  
-    </div>
+      </div>
 
-    <div class="sub_section">
-      <div class="box1">
-        <div>Learning</div>
-        <div>Unlock your potential through immersive learning experiences on our website.</div>
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
+        </div>
       </div>
-      <div class="box2">
-        <div>Design systems</div>
-        <div>Ignite your design potential with our powerful and intuitive design system.</div>
+
+      <div class="card">
+        <img src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
+        </div>
       </div>
-      <div class="box3">
-        <div>E-Books</div>
-        <div>Unleash design brilliance with our inspiring E-books, fuelling boundless creativity.</div>
+
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
+        </div>
       </div>
-      <div class="box4">
-        <div>Resources</div>
-        <div>Elevate your design with our extensive array of stunning Resources, crafted to perfection.</div>
+
+      <div class="card">
+        <img src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
+        </div>
       </div>
+
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+          <div>
+            <P>Burger application</P>
+          </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+            <span>Download</span>
+            <img src="./Images/download.png" alt="download">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="view_more">
+      <button>View more</button>
+    </div>
   </main>
-
-  <div class=footer>
-   <div class="left_footer">
-    <div>Base Components</div>
-  </div>
-   <div class="right_footer">
-    <div class="right_sub_footer1">
-      <div><span>Resources</span></div>
-      <div>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <p>Java</p>
-        <p>JSON</p>
-        <p>UI/UX Design</p>
-        <p>Component</p>
+  <footer>
+    <div class=footer>
+      <div class="left_footer">
+        <div>Base Components</div>
+        <div>
+          <div><img src="./Images/Facebook.png" alt="Facebook"></div>
+          <div><img src="./Images/Twitter.png" alt="Twitter"></div>
+          <div><img src="./Images/Linkedin.png" alt="Linkedin"></div>
+          <div><img src="./Images/Instagram.png" alt="Instagram"></div>
+        </div>
+      </div>
+      <div class="right_footer">
+        <div class="right_sub_footer1">
+          <div><span>Resources</span></div>
+          <div>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Java</p>
+            <p>JSON</p>
+            <p>UI/UX Design</p>
+            <p>Component</p>
+          </div>
+        </div>
+        <div class="right_sub_footer2">
+          <div> <span>Pages</span></div>
+          <div>
+            <p>Home</p>
+            <p>About us</p>
+            <p>FAQs</p>
+            <p>Who it works</p>
+            <p>Properties</p>
+          </div>
+        </div>
+        <div class="right_sub_footer3">
+          <div><span>Services</span></div>
+          <div>
+            <p>Exchange</p>
+            <p>Buy</p>
+            <p>Sell</p>
+          </div>
+        </div>
+        <div class="right_sub_footer4">
+          <div><span>Company</span></div>
+          <div>
+            <p>Pricing</p>
+            <p>Security</p>
+            <p>Privacy Policy</p>
+            <p>Term of use</p>
+            <p>Carrer</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="right_sub_footer2">
-      <div> <span>Pages</span></div>
-      <div>    
-        <p>Home</p>
-        <p>About us</p>
-        <p>FAQs</p>
-        <p>Who it works</p>
-        <p>Properties</p>
-      </div>
+    <div class="copy_right">
+      © 2023 Base components
     </div>
-    <div class="right_sub_footer3">
-      <div><span>Services</span></div>
-      <div>  
-        <p>Exchange</p>
-        <p>Buy</p>
-        <p>Sell</p>
-      </div>
-    </div>
-    <div class="right_sub_footer4">
-      <div><span>Company</span></div>
-      <div> 
-        <p>Pricing</p>
-        <p>Security</p>
-        <p>Privacy Policy</p>
-        <p>Term of use</p>
-        <p>Carrer</p>
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="copy_right">
-    © 2023 Base components
-  </div>
-  <div class="fixed">
-    <div>Get access to everything we have created for 3$ only</div>
-    <div><button> Get started</button></div>
-  </div>
+  </footer>
 </body>
+
 </html>
