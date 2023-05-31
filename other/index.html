@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+  <header class="nav_bar">
+    <div class="logo">
+      <img src="./Images/logo.png" alt="logo"></div>
+    <div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="nav_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Design system</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">E-Books</a></li>
+        <li><a href="#">Learning</a></li>
+        <li><a href="#">Join us</a></li>
+        <a href="./login.html"><button class="nav_button" >Sign in</button></a>
+      </ul>
+    </div>
+    <div class="fixed">
+      <div>Get access to eveything we have created for 3$ only</div>
+    </div>
+  </header>
+  <div class="sub_header">
+    <div class="title">
+      <span>Design. </span><span>Build. </span> <span>Evolve.</span>
+    </div>
+    <div class="sub_title">All the assets you need, in one place</div>
+    <div class="search">
+      <input type="text" class="search_bar" name="search" placeholder="Search all asets">
+      <img class="search_icon" src="./Images/Search.png" alt="Search">
+    </div>
+  </div>
+  <main>
+    <div class="main_button">
+      <button>Featured</button>
+      <button>Best sellers</button>
+      <button>Trending</button>
+      <button>Featured</button>
+      <button>Featured</button>
+      <button>Featured</button>
+    </div>
+  
+    <div class="cards_wrapper">
+      <div class="card">
+        <img id="card_image" src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+
+            <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image1.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/image2.png" alt="Image1">
+        <div class="card_box">
+            <div>
+              <span>Burger application</span>
+              <img src="./Images/Download.png" alt="download">
+            </div>
+          <div class="sub_card_box">
+            <span>UI kit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="view_more">
+      <button>View more</button>
+    </div>
+  </main>
+  <footer>
+    <div class=footer>
+      <div class="left_footer">
+        <div class="logo"><img src="./Images/logo.png" alt=""></div>
+        <div>
+          <div><img src="./Images/Facebook.png" alt="Facebook"></div>
+          <div><img src="./Images/Twitter.png" alt="Twitter"></div>
+          <div><img src="./Images/Linkedin.png" alt="Linkedin"></div>
+          <div><img src="./Images/Instagram.png" alt="Instagram"></div>
+        </div>
+      </div>
+      <div class="right_footer">
+        <div class="right_sub_footer1">
+          <div><span>Resources</span></div>
+          <div>
+            <p><a href="#">HTML</a></p>
+            <p><a href="#">CSS</a></p>
+            <p><a href="#">JavaScript</a></p>
+            <p><a href="#">Java</a></p>
+            <p><a href="#">JSON</a></p>
+            <p><a href="#">UI/UX Design</a></p>
+            <p><a href="#">Component</a></p>
+          </div>
+        </div>
+        <div class="right_sub_footer2">
+          <div> <span>Pages</span></div>
+          <div>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">About us</a></p>
+            <p><a href="#">FAQs</a></p>
+            <p><a href="#">Who it works</a></p>
+            <p><a href="#">Properties</a></p>
+          </div>
+        </div>
+        <div class="right_sub_footer3">
+          <div><span>Services</span></div>
+          <div>
+            <p><a href="#">Exchange</a></p>
+            <p><a href="#">Buy</a></p>
+            <p><a href="#">Sell</a></p>
+          </div>
+        </div>
+        <div class="right_sub_footer4">
+          <div><span>Company</span></div>
+          <div>
+            <p><a href="#">Pricing</a></p>
+            <p><a href="#">Security</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Term of use</a></p>
+            <p><a href="#">Carrer</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy_right">
+      &COPY; 2023 Base components
+    </div>
+  </footer>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("card_image");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    var contentText = document.getElementById("content");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+</body>
+
+</html>
