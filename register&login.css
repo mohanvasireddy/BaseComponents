@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo > img {
+    height: 42px;
+    width: 260px;
+    margin: 2px 16px;
+}
+
+.google > img {
+    position: relative;
+    left:20px;
+    top:5px
+}
+
+.google > button {
+    background: #262626;
+    color: #FFFFFF;
+    width: 300px;
+    height: 100%;
+    border-radius: 8px;
+    border-style: none;
+    text-align: center;
+    padding: 16px;
+    margin: 20px 0px 20px -22px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 20px;
+    margin: 20px 0px 8px 0px;
+}
+
+.field > div > input {
+    width: 300px;
+    background-color: #000000;
+    color:#FFFFFF;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    border: 1px solid #262626;
+}
+
+.incorrect {
+    font-size: 12px;
+    display: none;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin:24px 0px;
+}
+
+.login_submit {
+    background-color: #262626;
+    color: #FFFFFF;
+    padding:8px 28px;
+    border-style:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup_submit {
+    width:300px;
+    height: 42px;
+    font-size: 16px;
+    background-color: #262626;
+    color: #FFFFFF;
+    padding:8px 28px;
+    border-style:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forgot {
+    padding:8px 0px;
+    font-size: 12px;
+}
+
+.forgot > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sign_up {
+    color: #FFFFFF;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    padding: 8px 0px;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.sign_up > a {
+    text-decoration: none;
+    color: #2864FE;
+}
