@@ -155,15 +155,15 @@ body {
 .dropdown:checked + label:before{
   pointer-events: auto;
 }
-.dropdown:not(:checked) + label .uil {
-  font-size: 24px;
-  margin-left: 10px;
+.dropdown:not(:checked) + label .fa-chevron-down {
+  font-size: 10px;
+  margin-top: 0px;
   transition: transform 200ms linear;
 }
-.dropdown:checked + label .uil {
+.dropdown:checked + label .fa-chevron-down {
   transform: rotate(180deg);
-  font-size: 24px;
-  margin-left: 10px;
+  font-size: 10px;
+  margin-left: 0px;
   transition: transform 200ms linear;
 }
 .section-dropdown {
@@ -243,7 +243,7 @@ body {
   background-color: #517cea;
   opacity: 0.6;
 }
-.section-dropdown > a .uil {
+.section-dropdown > a .fa-chevron-down {
   font-size: 22px;
 }
 
@@ -397,6 +397,7 @@ body {
 }
 
 .cards_wrapper {
+    max-width: 1500px;
     margin:auto;
     display: flex;
     flex-wrap: wrap;
@@ -411,12 +412,14 @@ body {
 
 .card > img {
     border-radius: 16px 16px 0px 0px;
-    width: 22vw;
+    max-width: 100%;
+    max-height:100%;
     cursor: pointer;
 }
 
 .card_box {
-    width: 22vw;
+    max-width: 100%;
+    max-height:100%;
     background: #111827;
     height: 80px;
     border-radius: 0px 0px 16px 16px;
