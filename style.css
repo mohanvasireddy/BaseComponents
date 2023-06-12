@@ -377,8 +377,8 @@ body {
 }
 
 .main_button > button {
-    padding: 8px 24px 12px 24px;
-    height: 36px;
+    padding: 12px 24px;
+    height: 44px;
     border-radius: 32px;
     margin:12px 8px;
     background: #111827;
@@ -397,7 +397,7 @@ body {
 }
 
 .cards_wrapper {
-    max-width: 1500px;
+    max-width: 1600px;
     margin:auto;
     display: flex;
     flex-wrap: wrap;
@@ -408,9 +408,14 @@ body {
 
 .card {
     margin:12px;
+    max-width: 23%;
 }
 
-.card > img {
+.card:hover {
+    opacity: 0.7;
+}
+
+.card > a > img {
     border-radius: 16px 16px 0px 0px;
     max-width: 100%;
     max-height:100%;
@@ -474,8 +479,8 @@ body {
 }
 
 .view_more > button { 
-    padding: 8px 16px;
-    height: 36px;
+    padding: 12px 16px;
+    height: 44px;
     border-radius: 32px;
     background: #151515;
     font-family:  Arial, Helvetica, sans-serif;
@@ -485,7 +490,7 @@ body {
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-    border-style: none;
+    border: none;
     background: #2864FE;
     margin: 32px 0px 56px 0px;
     cursor: pointer;

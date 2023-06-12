@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #02091A;
+    max-width: 100%;
+    color:#FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin:auto;
+}
+
+.container {
+    background-color: #111827;
+    height: 547px;
+    width: 405px;
+    border-radius: 16px;
+    margin:auto;
+    margin-top:60px;
+    padding:0px 24px;
+}
+
+.upper_section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:16px;
+}
+
+.fa-pencil {
+    position:relative;
+    top:27px;
+    left:164px;
+    cursor: pointer;
+}
+
+.user_profile {
+    height: 136px;
+    width: 136px;
+    margin-top:24px;
+}
+
+.upper_section > span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.premium {
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 75px;
+    height: 30px;
+    background: linear-gradient(91.61deg, #FB6009 -3.26%, #2864FE 99.66%);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border:none;
+}
+
+.line {
+    width: 357px;
+    height: 0px;
+    border: 1px solid #1F2937;
+}
+
+.form_section  {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding:32px 0px;
+}
+
+.form_section > label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+input {
+    background: #111827;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+    outline:none;
+    border: none;
+}
+
+.form_section > :nth-child(2) {
+  margin-bottom: 24px;
+}
+
+.subscription {
+    width: 341px;
+    height: 40px;
+    background: rgba(243, 244, 246, 0.1);
+    border-radius: 8px;
+    margin-top:40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E5E7EB;
+    padding:12px 0px;
+    text-align: center;
+    border: none;
+}
