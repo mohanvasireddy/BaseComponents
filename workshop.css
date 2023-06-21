@@ -238,7 +238,7 @@ color:#ffffff;
 }
 
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1050px) {
 
     .header_section {
         flex: none;
