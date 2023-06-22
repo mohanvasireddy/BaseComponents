@@ -53,7 +53,7 @@ color:#ffffff;
         top:76px;
         display: flex;
         justify-content: center;
-        padding: 18px 0px;
+        padding: 14px 0px;
         gap: 10px;
         background: linear-gradient(91.61deg, #FB6009 -3.26%, #AB339F 44.98%, #5200FF 99.66%);
         z-index: 100;
@@ -65,25 +65,29 @@ color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 40px;
     text-transform: capitalize;
     color: #FFFFFF;
+    padding: 0px;
     margin-right: 24px;
+}
+
+.banner_content > s {
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 .banner_button {
     width: 160px;
-    height: 40px;
+    height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: Medium;
     font-size: 24px;
-    line-height: 24px;
     text-transform: capitalize;
     color: #FFFFFF;
-    background: transparent;
-    border: 1px ridge #ffffff;
+    background: #020919;
+    border: 2px ridge #ffffff;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -238,7 +242,7 @@ color:#ffffff;
     color: #FFFFFF;
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1024px) {
 
     * {
         font-family: Arial, Helvetica, sans-serif;
@@ -258,21 +262,7 @@ color:#ffffff;
         display: none;
     } */
 
-    .banner {
-        position: fixed;
-        top:auto;
-        bottom: 0px;
-    }
-
-    .banner_content {
-       display:none;
-    }
-
-    .banner_button {
-        width: 120px;
-        height: 32px;
-        font-size: 16px;
-    }
+    
 
     .main_section, .box1, .box2 {
         width:96%;
@@ -362,125 +352,56 @@ color:#ffffff;
 
 }
 
-
-@media screen and (max-width:450px) {
-    * {
-        font-family: Arial, Helvetica, sans-serif;
-        box-sizing: border-box;
-        padding:0px;
-        margin:0px;
-        color:#ffffff;
-        }
+@media screen and (max-width:480px) {
 
     .header_section {
-        flex: none;
-        padding: 18px 24px;
+        height:66px;
+    }
+    
+    .header_button {
+        display: none;
+    }
+
+    .header_logo {
         margin: auto;
     }
 
-    .header_button {
-        display: none;
+    .header_logo > img {
+        width:200px;
+        height: 32px;
+    }
+
+    /* .banner {
+        margin:16px 0px -8px 0px;
+    } */
+
+    .banner_content > s {
+       font-size: 16px;
+    }
+
+    .main_title {
+        width: 100%;
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .banner {
         position: fixed;
         top:auto;
         bottom: 0px;
+        padding: 20px 0px;
     }
 
     .banner_content {
-       display:none;
+       width:100%;
+       margin-right: 12px;
+       font-size: 28px;
+       padding-top: 12px;;
     }
 
     .banner_button {
         width: 120px;
-        height: 32px;
+        height: 38px;
         font-size: 16px;
     }
-
-    .main_section, .box1, .box2 {
-        width:96%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        margin-top: 62px;
-    }
-
-    /* .main_section {
-        margin:60px 0px;
-    } */
-
-    .box1, .box2 {
-        padding: 24px;
-        margin: 24px 0px;
-    }
-
-    .box2 {
-        margin-bottom: 96px;
-    }
-
-    .main_title, .main_subtitle {
-        width:100%;
-        height: 100%;
-        padding:0px 16px;
-    }
-
-    .main_title {
-        font-size: 40px;
-        line-height: 50px;
-    }
-
-    .main_subtitle {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .main_section > img {
-        width:90vw;
-        height: 100%;
-        margin: 5% 5%;
-    }
-
-    .box1_title, .box1_subtitle,.box2_title, .box2_subtitle {
-       width:100%;
-       height: 100%;
-    }
-
-    .box1_title, .box2_title {
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .box1_subtitle {
-        font-weight: 200;
-        line-height: 28px;
-        margin-top: 16px;
-    }
-
-    .box1_button, .box2_button {
-        width: 142px;
-        height: 48px;
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    .box2_subtitle {
-        margin-bottom: 24px;;
-    }
-
-    .label_content {
-        width:100%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 0px;
-        margin-bottom: 4px;
-    }
-
-    .label_content > label {
-        height: 36px;
-        padding: 8px 16px;
-    }
-
 }
